@@ -89,6 +89,9 @@ imgId_0041.src = "../images/tile_0041.png";
 const imgId_0043 = new Image();
 imgId_0043.src = "../images/tile_0043.png";
 
+const imgId_0044 = new Image();
+imgId_0044.src = "../images/tile_0044.png";
+
 const imgId_0051 = new Image();
 imgId_0051.src = "../images/tile_0051.png";
 
@@ -140,6 +143,9 @@ imgId_0062.src = "../images/tile_0062.png";
 const imgId_0063 = new Image();
 imgId_0063.src = "../images/tile_0063.png";
 
+const imgId_0064 = new Image();
+imgId_0064.src = "../images/tile_0064.png";
+
 const imgId_0065 = new Image();
 imgId_0065.src = "../images/tile_0065.png";
 
@@ -152,6 +158,9 @@ imgId_0068.src = "../images/tile_0068.png";
 const imgId_0069 = new Image();
 imgId_0069.src = "../images/tile_0069.png";
 
+const imgId_0070 = new Image();
+imgId_0070.src = "../images/tile_0070.png";
+
 const imgId_0005 = new Image();
 imgId_0005.src = "../images/tile_0005.png";
 
@@ -161,6 +170,9 @@ imgId_0008.src = "../images/tile_0008.png";
 const imgId_0083 = new Image();
 imgId_0083.src = "../images/tile_0083.png";
 
+const imgId_0054 = new Image();
+imgId_0054.src = "../images/tile_0054.png";
+
 const imgId_0056 = new Image();
 imgId_0056.src = "../images/tile_0056.png";
 
@@ -169,6 +181,9 @@ imgId_0021.src = "../images/tile_0021.png";
 
 const imgId_0024 = new Image();
 imgId_0024.src = "../images/tile_0024.png";
+
+const imgId_0027 = new Image();
+imgId_0027.src = "../images/tile_0027.png";
 
 const imgId_0080 = new Image();
 imgId_0080.src = "../images/tile_0080.png";
@@ -200,11 +215,38 @@ imgId_0106.src = "../images/tile_0106.png";
 
 function drawGame()
 {
+    ctx.drawImage(imgId_0041, 630, 138);
+    ctx.drawImage(imgId_0061, 720, 138);
+    ctx.drawImage(imgId_0064, 864, 138);
+    // ======================================================
+    ctx.drawImage(imgId_0020, 594, 156);
+    ctx.drawImage(imgId_0021, 612, 156);
+    ctx.drawImage(imgId_0005, 630, 156);
+    ctx.drawImage(imgId_0021, 648, 156);
+    ctx.drawImage(imgId_0005, 666, 156);
+    ctx.drawImage(imgId_0021, 684, 156);
+    ctx.drawImage(imgId_0005, 702, 156);
+    ctx.drawImage(imgId_0021, 720, 156);
+    ctx.drawImage(imgId_0005, 738, 156);
+    ctx.drawImage(imgId_0021, 756, 156);
+    ctx.drawImage(imgId_0005, 774, 156);
+    ctx.drawImage(imgId_0021, 792, 156);
+    ctx.drawImage(imgId_0005, 810, 156);
+    ctx.drawImage(imgId_0038, 828, 156);
+    ctx.drawImage(imgId_0005, 846, 156);
+    ctx.drawImage(imgId_0021, 864, 156);
+    ctx.drawImage(imgId_0022, 882, 156);
+    // =======================================================
     ctx.drawImage(imgId_0012, 162, 174);
     ctx.drawImage(imgId_0041, 346, 174);
     ctx.drawImage(imgId_0060, 430, 174);
+    ctx.drawImage(imgId_0007, 666, 174);
+    ctx.drawImage(imgId_0052, 828, 174);
+    ctx.drawImage(imgId_0081, 846, 174);
+    ctx.drawImage(imgId_0082, 810, 174);
     // ========================================================
     ctx.drawImage(imgId_0041, 18, 192);
+    ctx.drawImage(imgId_0044, 162, 192);
     ctx.drawImage(imgId_0028, 162, 192);
     ctx.drawImage(imgId_0020, 274, 192);
     ctx.drawImage(imgId_0005, 292, 192);
@@ -221,6 +263,9 @@ function drawGame()
     ctx.drawImage(imgId_0005, 490, 192);
     ctx.drawImage(imgId_0005, 508, 192);
     ctx.drawImage(imgId_0022, 526, 192);
+    ctx.drawImage(imgId_0023, 666, 192);
+    ctx.drawImage(imgId_0011, 756, 192);
+    ctx.drawImage(imgId_0054, 828, 192);
     // =========================================================
     ctx.drawImage(imgId_0087, 0, 210);
     ctx.drawImage(imgId_0104, 18, 210);
@@ -234,6 +279,9 @@ function drawGame()
     ctx.drawImage(imgId_0082, 382, 210);
     ctx.drawImage(imgId_0081, 418, 210);
     ctx.drawImage(imgId_0008, 505, 210);
+    ctx.drawImage(imgId_0039, 666, 210);
+    ctx.drawImage(imgId_0027, 756, 210);
+    ctx.drawImage(imgId_0052, 828, 210);
     // ========================================================
     ctx.drawImage(imgId_0075, 18, 226);
     ctx.drawImage(imgId_0043, 72, 226);
@@ -242,6 +290,8 @@ function drawGame()
     ctx.drawImage(imgId_0024, 318, 226);
     ctx.drawImage(imgId_0052, 400, 226);
     ctx.drawImage(imgId_0024, 505, 226);
+    ctx.drawImage(imgId_0043, 756, 226);
+    ctx.drawImage(imgId_0054, 828, 226);
     // ========================================================
     ctx.drawImage(imgId_0075, 18, 244);
     ctx.drawImage(imgId_0043, 72, 244);
@@ -254,6 +304,8 @@ function drawGame()
     ctx.drawImage(imgId_0061, 535, 244);
     ctx.drawImage(imgId_0036, 594, 244);
     ctx.drawImage(imgId_0012, 702, 244);
+    ctx.drawImage(imgId_0027, 756, 244);
+    ctx.drawImage(imgId_0052, 828, 244);
     // ========================================================
     ctx.drawImage(imgId_0075, 18, 262);
     ctx.drawImage(imgId_0043, 72, 262);
@@ -271,7 +323,10 @@ function drawGame()
     ctx.drawImage(imgId_0038, 594, 262);
     ctx.drawImage(imgId_0005, 612, 262);
     ctx.drawImage(imgId_0022, 630, 262);
+    ctx.drawImage(imgId_0044, 702, 262);
     ctx.drawImage(imgId_0028, 702, 262);
+    ctx.drawImage(imgId_0043, 756, 262);
+    ctx.drawImage(imgId_0070, 828, 262);
     ctx.drawImage(imgId_0098, 900, 262);
     // ========================================================
     ctx.drawImage(imgId_0017, 0, 280);
